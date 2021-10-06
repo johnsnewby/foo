@@ -1,0 +1,2 @@
+{:deps
+ {tezos {:local/root "lib/TezosJ-plainjava.jar"}}}

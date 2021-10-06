@@ -1,0 +1,11 @@
+(import milfont.com.tezosj.helper.Global
+        milfont.com.tezosj.model.TezosWallet)
+
+(def wallet
+  (new TezosWallet "edsk4RQrKjPcu82bTdNSFaizL9GdKqcunPLXxxCLJgmmu22BNN5xXh"
+       "edpktgT7d1wZJc7bz6PLX5noRCrPnCdxjdaRvJSWYBFRqAh4MFd1rS"
+       "tz1LMxo1riJNxjSx8o8vi7DrCj9Ct1yepLze" "foo"))
+
+(set! Global/defaultProvider "http://granada.newby.org:8732")
+
+(.getBalance wallet)
