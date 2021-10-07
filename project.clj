@@ -6,4 +6,6 @@
   :dependencies [
                  [org.clojure/clojure "1.10.0"]
                  ]
+  :deps { everything/else {:local/root "libs/libs.jar"} }
+
   :repl-options {:init-ns foo.core})
