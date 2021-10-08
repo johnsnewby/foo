@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">    
+  <modelVersion>4.0.0</modelVersion>    
+  <parent>
+    <groupId>org.ej4tezos</groupId>
+    <artifactId>java-se.parent.osgi</artifactId>
+    <version>1.0.0.0-SNAPSHOT</version>
+  </parent>
+  <groupId>org.ej4tezos</groupId>
+  <artifactId>java-se.proxy</artifactId>
+  <version>1.0.0.0-SNAPSHOT</version>
+  <packaging>bundle</packaging>
+  <properties>
+    <osgi.bundle.name>EJ4Tezos - Java SE - Proxy</osgi.bundle.name>
+  </properties>
+  <dependencies>
+    <dependency>
+      <groupId>org.ej4tezos</groupId>
+      <artifactId>java-se.api</artifactId>
+      <version>1.0.0.0-SNAPSHOT</version>
+    </dependency>
+    <dependency>
+      <groupId>org.ej4tezos</groupId>
+      <artifactId>java-se.papi</artifactId>
+      <version>1.0.0.0-SNAPSHOT</version>
+    </dependency>
+    <dependency>
+      <groupId>org.ej4tezos</groupId>
+      <artifactId>java-se.model</artifactId>
+      <version>1.0.0.0-SNAPSHOT</version>
+    </dependency>
+    <dependency>
+      <groupId>org.ej4tezos</groupId>
+      <artifactId>java-se.utils.assert</artifactId>
+      <version>1.0.0.0-SNAPSHOT</version>
+    </dependency>
+    <dependency>
+      <groupId>org.ej4tezos</groupId>
+      <artifactId>java-se.default-impl</artifactId>
+      <version>1.0.0.0-SNAPSHOT</version>
+    </dependency>
+    <dependency>
+      <groupId>org.ej4tezos</groupId>
+      <artifactId>cgp.api</artifactId>
+      <version>1.0.0.0-SNAPSHOT</version>
+    </dependency>
+    <dependency>
+      <groupId>org.ej4tezos</groupId>
+      <artifactId>cgp.tdc.generator.micheline</artifactId>
+      <version>1.0.0.0-SNAPSHOT</version>
+    </dependency>
+  </dependencies>
+</project>

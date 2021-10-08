@@ -1,4 +1,11 @@
 {:deps
  {tezos/tezos {:local/root "lib/TezosJ-plainjava.jar"}
-  essential/libs {:local/root "lib/libs.jar"}}
+  essential/libs {:local/root "lib/libs.jar"}
+  ej4tezos/java_parent { :deps/manifest
+                     "artifactory.ej4tezos.org/artifactory/libs-snapshot-local/org/ej4tezos/java-se.parent/1.0.0.0-SNAPSHOT/java-se.parent-1.0.0.0-SNAPSHOT.pom" }
+  ej4tezos/java_api {:local/root
+                     "artifactory.ej4tezos.org/artifactory/libs-snapshot-local/org/ej4tezos/java-se.api/1.0.0.0-SNAPSHOT/java-se.api-1.0.0.0-SNAPSHOT.jar"
+                      }
+
+  }
 }

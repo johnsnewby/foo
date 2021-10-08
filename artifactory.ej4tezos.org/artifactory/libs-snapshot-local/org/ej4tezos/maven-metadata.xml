@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <plugins>
+    <plugin>
+      <name>Unnamed - org.ej4tezos:cgp-maven-plugin:maven-plugin:1.0.0.0-SNAPSHOT</name>
+      <prefix>cgp</prefix>
+      <artifactId>cgp-maven-plugin</artifactId>
+    </plugin>
+  </plugins>
+</metadata>
